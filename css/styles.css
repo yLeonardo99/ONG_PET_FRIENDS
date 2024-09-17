@@ -1,0 +1,905 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Praise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Montagu+Slab:wght@477;500&family=Playfair+Display:ital@1&family=Praise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&family=Nunito:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap%27');
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#porque {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.titulocomo {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+
+#cachorro1 {
+    background-color: black;
+    display: block;
+    width: 70%;
+    height: 70%;
+}
+
+.titulo {
+    font-size: 25px;
+    color: rgb(12, 8, 8);
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    ;
+}
+
+.corfooter {
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 150%;
+
+}
+
+.textoprincipal {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(24, 24, 24);
+    font-weight: 600;
+    text-align: justify;
+}
+
+.wrapper {
+    background-image: url("../Imagens/fundo.png");
+    position: relative;
+
+}
+
+.quadrado {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+
+    /* não altera posição de outros elementos*/
+
+}
+
+/*==============================
+Header / NAV
+==============================*/
+header .tituloHeader {
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: rgb(241, 241, 241);
+    position: relative;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header .tituloHeader:hover,
+header .tituloHeader:focus {
+    background-color: #ff9747;
+    color: rgb(31, 31, 31);
+}
+
+
+header .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #222222;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+header .dropdown-item {
+    color: rgb(241, 241, 241);
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header .dropdown-item:hover,
+header .dropdown-item:focus {
+    background-color: #ff9747;
+    color: rgb(31, 31, 31);
+}
+
+header .nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+header .dropdown-toggle::after {
+    margin-left: 5px;
+    vertical-align: middle;
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-left: 0.3em solid transparent;
+    content: "";
+}
+
+
+/*==============================
+Footer / Rodapé
+==============================*/
+
+#myFooter {
+    background-color: #282828;
+    color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+    padding: 40px 0;
+    position: relative;
+}
+
+/* Container principal do rodapé */
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Seções do rodapé */
+
+.footer-section {
+    flex: 1;
+    min-width: 220px;
+    max-width: 30%;
+}
+
+.footer-section h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.footer-section h2::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #d84b6b;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+.footer-section h2:hover::after {
+    transform: translateX(0);
+}
+
+/* Lista de contatos e desenvolvedores */
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section h3 {
+    font-size: 16px;
+    margin: 5px 0;
+    line-height: 1.4;
+}
+
+.footer-section a {
+    color: #f9f9f9;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.footer-section a:hover {
+    color: #d84b6b;
+}
+
+/* Ícone do GitHub */
+
+.footer-section a i {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+/* Redes sociais e desenvolvedores */
+
+.social-dev {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    font-size: 20px;
+    color: #f9f9f9;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #d84b6b;
+}
+
+.developers ul {
+    list-style: none;
+    padding: 0;
+}
+
+.developers ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.developers ul li a {
+    color: #f9f9f9;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.developers ul li a:hover {
+    color: #d84b6b;
+}
+
+/* Rodapé inferior */
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f1f1f;
+    color: #ccc;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 767px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-section {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+/*---Historia---*/
+
+#cachorrofooter {
+    height: 15%;
+    width: 15%;
+    float: left;
+    clear: left;
+    margin-top: 300px;
+}
+
+#cachorro {
+    height: 20%;
+    width: 20%;
+    float: left;
+    clear: left;
+    margin-top: -200px;
+}
+
+#gato {
+    margin-top: 300px;
+    height: 20%;
+    width: 20%;
+    float: right;
+    clear: right;
+}
+
+.text {
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: rgb(24, 24, 24);
+    text-align: justify;
+    width: 90%;
+}
+
+#imagem1 {
+    width: 40%;
+    height: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imagem2 {
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media(max-width:800px) {
+    .text {
+        width: 90%;
+    }
+
+    #imagem1 {
+        width: 70%;
+        height: 70%;
+    }
+}
+
+@media(max-width:1150px) {
+    #cachorrofooter,
+    #gato,
+    #cachorro {
+        display: none;
+    }
+}
+
+
+/*---Como ajudar---*/
+
+#entrarcontato {
+    text-align: justify;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-align: center;
+
+}
+
+
+.text3 {
+    width: 800px;
+}
+
+#imagemsentimento {
+    width: 40%;
+    height: 40%;
+    margin: 2%;
+    float: left;
+}
+
+#imagemracao {
+    width: 40%;
+    height: 40%;
+    margin: 2%;
+    float: right;
+    margin-top: 250px;
+    display: inline;
+
+}
+
+#imagemprojecao {
+
+    width: 40%;
+    height: 40%;
+    margin: 2%;
+    float: left;
+    margin-top: -50px;
+    display: inline;
+}
+
+#imagemmaustratos {
+    margin-top: 200px;
+    width: 100%;
+
+}
+
+#textocomoajudar {
+
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(24, 24, 24);
+    display: flex;
+    width: 50%;
+    margin: 2%;
+    font-weight: 600;
+
+
+}
+
+#textocomoajudar2 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(12, 8, 8);
+    display: inline-block;
+    width: 50%;
+    display: flex;
+    margin: 2%;
+    font-weight: 600;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+#textocomoajudar3 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(12, 8, 8);
+    display: inline-block;
+    display: flex;
+    width: 50%;
+    margin: 2%;
+    margin-top: 200px;
+    font-weight: 600;
+    text-align: justify;
+}
+
+@media(max-width:1300px) {
+    #textocomoajudar {
+        font-size: 18px;
+    }
+
+    #textocomoajudar2 {
+        font-size: 18px;
+
+    }
+
+    #textocomoajudar3 {
+        font-size: 18px;
+    }
+
+}
+
+@media(max-width:1061px) {
+    #textocomoajudar {
+
+        font-size: 15px;
+
+    }
+
+    #textocomoajudar2 {
+        font-size: 15px;
+    }
+
+    #textocomoajudar3 {
+        font-size: 15px;
+    }
+
+}
+
+@media(max-width:889px) {
+
+    #imagemsentimento {
+        float: none;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0;
+        width: 70%;
+        height: 70%;
+
+    }
+
+    #imagemracao {
+        float: none;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0;
+        width: 70%;
+        height: 70%;
+    }
+
+    #imagemprojecao {
+        float: none;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0;
+        width: 70%;
+        height: 70%;
+    }
+
+    #textocomoajudar {
+        margin-right: auto;
+        margin-left: auto;
+        width: 80%;
+    }
+
+    #textocomoajudar2 {
+        margin-right: auto;
+        margin-left: auto;
+        width: 80%;
+    }
+
+    #textocomoajudar3 {
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0;
+        width: 80%;
+    }
+
+}
+
+
+/*---ADOTE---*/
+
+/* Botão Saiba Mais */
+
+.btn-saiba-mais {
+    background-color: #6bdad4;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Efeito hover no botão Saiba Mais */
+
+.btn-saiba-mais:hover {
+    background-color: #4fa3a8;
+    transform: scale(1.05);
+}
+
+/* Botão Doar Agora */
+
+.btn-doar-agora {
+    background-color: #ff7043;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Efeito hover no botão Doar Agora */
+
+.btn-doar-agora:hover {
+    background-color: #e64a19;
+    transform: scale(1.05);
+}
+
+/* Seção Como Você Pode Ajudar */
+
+.donation-info {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.donation-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.donation-text {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.donation-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+/* Efeito hover nos cards */
+
+.donation-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #e0f7fa;
+}
+
+.donation-item h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.donation-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Redes Sociais */
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    font-size: 2rem;
+    color: #333;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #6bdad4;
+}
+
+/* Efeitos de Hover nos Títulos e Parágrafos */
+
+/* Títulos */
+
+h1, h2 {
+    transition: transform 0.3s, color 0.3s;
+}
+
+h1:hover, h2:hover {
+    transform: scale(1.05);
+    color: #007bff; /* Cor ao passar o mouse */
+}
+
+/* Parágrafos */
+p {
+    transition: transform 0.3s, color 0.3s;
+}
+
+p:hover {
+    transform: scale(1.02);
+    color: #555; /* Cor ao passar o mouse */
+}
+
+/* Card Customizado */
+.custom-card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.custom-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Título do Card */
+.custom-card .card-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Texto do Card */
+.custom-card .card-text {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Botão do Card */
+.custom-card .btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.custom-card .btn-primary:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Rodapé */
+.footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+
+.footer .social-networks a {
+    margin-right: 15px;
+    font-size: 1.5rem;
+    color: #555;
+    transition: color 0.3s;
+}
+
+.footer .social-networks a:hover {
+    color: #007bff;
+}
+
+
+/* SOBRE PROJETO (DESENVOLVEDORES */
+
+.titulosobre {
+    font-size: 2.5rem;
+    color: #0056b3;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    position: relative;
+    padding: 10px;
+    background: linear-gradient(135deg, #a8e063, #56ab2f);
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.desenvolvedores-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.desenvolvedor {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+}
+
+
+.nome {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.ra {
+    font-size: 1.125rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.github-link {
+    display: inline-block;
+    font-size: 1rem;
+    color: #333;
+    text-decoration: none;
+    background: #f0f0f0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.github-link:hover {
+    background: #333;
+    color: #fff;
+}
+
+/* LOGO NA PAGINA */
+
+.menu-superior {
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.logo-container {
+    position: relative;
+    display: flex;
+    align-items: center; 
+}
+
+.logo {
+    width: 150px; /* Tamanho da logo */
+    height: auto;
+    transition: transform 0.3s ease, filter 0.3s ease; 
+}
+
+/* Efeito ao passar o mouse sobre a logo */
+
+.logo-container:hover .logo {
+    transform: scale(1.2) rotate(5deg); 
+    filter: brightness(1.2); 
+    animation: pulse 1s infinite; 
+}
+
+.text-overlay {
+    margin-left: 15px; 
+    font-size: 18px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0;
+    transform: translateX(-20px) scale(0.8); 
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    white-space: nowrap; /* Para não ter quebra de linha */
+    display: flex;
+    align-items: center;
+}
+
+/* Adiciona um espaço entre a imagem de patinha e o texto */
+
+.paw-icon {
+    width: 24px; 
+    height: auto;
+    margin-right: 8px; 
+    transition: transform 0.3s ease, filter 0.3s ease; /
+}
+
+/* Efeito ao passar o mouse sobre a logo */
+
+.logo-container:hover .text-overlay {
+    opacity: 1;
+    transform: translateX(0) scale(1.2); 
+    animation: slideIn 0.5s ease-out, bamWaw 0.5s ease-out;
+}
+
+/* Efeito ao passar o mouse sobre o ícone de patinha */
+
+.logo-container:hover .paw-icon {
+    transform: scale(1.2); /* Aumento do ícone */
+    animation: pulseIcon 1s infinite; /* Adiciona a animação de pulsar */
+}
+
+@keyframes bamWaw {
+    0% { transform: scale(0.8); }
+    50% { transform: scale(1.4); }
+    100% { transform: scale(1); }
+}
+
+/* Animação de pulsar para a logo */
+
+@keyframes pulse {
+    0% { transform: scale(1.2) rotate(5deg); }
+    50% { transform: scale(1.3) rotate(-5deg); }
+    100% { transform: scale(1.2) rotate(5deg); }
+}
+
+/* Animação de pulsar para o ícone de patinha */
+
+@keyframes pulseIcon {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.3); }
+    100% { transform: scale(1); }
+}
+
+/* Animação de deslizar para o texto */
+
+@keyframes slideIn {
+    0% { transform: translateX(-20px) scale(0.8); }
+    100% { transform: translateX(0) scale(1.2); }
+}
