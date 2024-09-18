@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,7 +28,8 @@
 
         <main>
             <nav>
-                <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between mt-3">
+                <header
+                    class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between mt-3">
                     <!-- Menu -->
                     <ul class="navigation-menu mx-auto nav col-12 col-md-auto justify-content-center mb-md-0">
                         <li class="nav-item dropdown">
@@ -51,7 +53,9 @@
 
             <div class="py-3">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-interval="1000">
+
                     <!-- Carrossel -->
+
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                             class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -63,26 +67,35 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="Imagens/foto1.png" alt="Image1" class="d-block w-100">
+
                             <div class="carousel-caption d-none d-md-block">
-                                <h3 id="titulo">Salve vidas</h3>
+                                <div id="titulo">
+                                    Salve vidas</div>
                                 <p id="subtitulo">Com a sua doação, você gera cuidado, carinho e amor para milhares de
                                     animais carentes.</p>
-                                <a href="Doacao.html"><button class="btn btn-primary">DOAR</button></a>
+                                <a href="Comoajudar.html"> <button class="button button1">COMO AJUDAR</button></a>
                             </div>
+
                         </div>
                         <div class="carousel-item">
-                            <img src="Imagens/foto2.png" alt="Image2" class="d-block w-100">
+                            <img src="Imagens/img2.jpeg" alt="Image2" class="d-block w-100">
+
                             <div class="carousel-caption d-none d-md-block">
-                                <h3 id="titulo">Adote um amigo</h3>
+                                <div id="titulo">Adote um amigo </div>
                                 <p id="subtitulo">Entre em contato para mais informações.</p>
-                                <a href="#low"><button class="btn btn-primary">ADOTAR</button></a>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeHZSwQcAbqPlTNAKT_LWLnmwpeg9ElzXLOrvn8qitVOJTIiQ/viewform"
+                                    target="_blank">
+                                    <button class="button button1">QUERO ADOTAR</button>
+                                </a>
                             </div>
                         </div>
+
                         <div class="carousel-item">
                             <img src="Imagens/foto3.png" alt="Image3" class="d-block w-100">
+
                             <div class="carousel-caption d-none d-md-block">
-                                <h3 id="titulo">Conheça nossa história</h3>
-                                <a href="Historia.html"><button class="btn btn-primary">SAIBA MAIS</button></a>
+                                <div id="titulo"> Conheça nossa historia</div>
+                                <a href="Historia.html"><button class="button button1">SAIBA MAIS</button></a>
                             </div>
                         </div>
                     </div>
@@ -127,15 +140,12 @@
                 <!-- VIDEO DO GATO   -->
 
                 <div class="text-center">
-                    <iframe class="embed-responsive-item" width="800" height="400" alt="video gato jogando uno"
-                    src="Imagens/VIDEO_gato.mp4"YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen> </iframe>
+                    <video id="videoGato" width="800" height="400" controls>
+                        <source src="Imagens/VIDEO_gato.mp4" type="video/mp4">
+                    </video>
                 </div>
             </div>
 
-            <!-- Novo Card de Questionário -->
             <div class="container my-5">
                 <div class="card custom-card mx-auto" style="max-width: 600px;">
                     <div class="card-body">
@@ -153,42 +163,30 @@
             <div class="container">
                 <div class="row d-flex justify-content-center">
                     <div class="col-sm-4">
-                        <h2>Localização:</h2>
-                        <iframe class="w-100"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.9610600743254!2d-47.159322184490335!3d-22.766826338616774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c89560f5b97d81%3A0x552f52665e3a55b8!2sR.%20Santa%20Cec%C3%ADlia%2C%20308%20-%20Santa%20Cecilia%2C%20Paul%C3%ADnia%20-%20SP%2C%2013140-358!5e0!3m2!1spt-BR!2sbr!4v1637180711868!5m2!1spt-BR!2sbr"
-                            height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <h2>Sobre Nós</h2>
+                        <ul>
+                            <li><a href="Historia.html">História da ONG</a></li>
+                            <li><a href="Comoajudar.html">Como Ajudar</a></li>
+                            <li><a href="Adote.html">Adote</a></li>
+                            <li><a href="SobreProjeto.html">Desenvolvedores</a></li>
+                        </ul>
                     </div>
                     <div class="col-sm-4">
-                        <h5>Contato</h5>
-                        <ul>
-                            <li>
-                                <h3 class="corfooter">Telefone: (16)98175-7423 <img
-                                        src="Imagens/whatsapp-logo-1.png" width="30px" height="30px" alt="WhatsApp"></h3>
-                            </li>
-                            <li>
-                                <h3 class="corfooter">Email: contato.apasfa@gmail.com</h3>
-                            </li>
-                            <li>
-                                <h3 class="corfooter">Endereço: Rua Santa Cecilia, 308 - Santa Cecilia, São Paulo - SP,
-                                    13140-031</h3>
-                            </li>
-                        </ul>
+                        <h2>PIX</h2>
+                        <p>CNPJ: 43.609.394/0001-92</p>
                     </div>
-                    <div class="col-sm-3">
-                        <h5>Sobre-nós</h5>
-                        <ul>
-                            <li><a href="Historia.html">História da ong</a></li>
-                            <li><a href="Comoajudar.html">Como ajudar</a></li>
-                            <li><a href="Doacao.html">Doar</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-2">
+                    <div class="col-sm-4">
+                        <h2>Redes Sociais</h2>
                         <div class="social-networks">
-                            <a href="https://www.facebook.com/ongpaulinia/" class="facebook" aria-label="Facebook"><i
-                                    class="fa fa-facebook"></i></a>
-                            <a href="https://www.instagram.com/ongapasfapoficial/?hl=pt-br" class="instagram" aria-label="Instagram"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/PETFRIENDSANIMAL22/" class="facebook" target="_blank">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/petfriends_animal/reels/" class="instagram"
+                                target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
                         </div>
+
                     </div>
                 </div>
             </div>

@@ -60,7 +60,7 @@ html {
 }
 
 .wrapper {
-    background-image: url("../Imagens/fundo.png");
+    background-image: url("../Imagens/fundo.png"); /*papel de fundo*/
     position: relative;
 
 }
@@ -76,8 +76,9 @@ html {
 }
 
 /*==============================
-Header / NAV
+        Header / NAV
 ==============================*/
+
 header .tituloHeader {
     font-size: 20px;
     font-weight: 800;
@@ -134,7 +135,7 @@ header .dropdown-toggle::after {
 
 
 /*==============================
-Footer / Rodapé
+        Footer / Rodapé
 ==============================*/
 
 #myFooter {
@@ -217,61 +218,25 @@ Footer / Rodapé
     color: #d84b6b;
 }
 
-/* Ícone do GitHub */
-
-.footer-section a i {
-    font-size: 18px;
-    margin-right: 10px;
-}
-
-/* Redes sociais e desenvolvedores */
-
-.social-dev {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.social-icons {
+/* Ícone das redes sociais */
+.social-networks {
     display: flex;
     gap: 15px;
-    margin-bottom: 20px;
 }
 
-.social-icons a {
+.social-networks a {
     font-size: 20px;
     color: #f9f9f9;
     transition: color 0.3s ease;
 }
 
-.social-icons a:hover {
-    color: #d84b6b;
-}
-
-.developers ul {
-    list-style: none;
-    padding: 0;
-}
-
-.developers ul li {
-    margin-bottom: 10px;
-    font-size: 16px;
-}
-
-.developers ul li a {
-    color: #f9f9f9;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
-
-.developers ul li a:hover {
+.social-networks a:hover {
     color: #d84b6b;
 }
 
 /* Rodapé inferior */
 
-.footer-bottom {
+.footer-copyright {
     text-align: center;
     padding: 20px;
     background-color: #1f1f1f;
@@ -292,7 +257,8 @@ Footer / Rodapé
 }
 
 
-/*---Historia---*/
+
+/****************************---Historia---************************************/
 
 #cachorrofooter {
     height: 15%;
@@ -355,6 +321,7 @@ Footer / Rodapé
 }
 
 @media(max-width:1150px) {
+
     #cachorrofooter,
     #gato,
     #cachorro {
@@ -363,7 +330,7 @@ Footer / Rodapé
 }
 
 
-/*---Como ajudar---*/
+/*************************---Como ajudar---***********************/
 
 #entrarcontato {
     text-align: justify;
@@ -541,7 +508,7 @@ Footer / Rodapé
 }
 
 
-/*---ADOTE---*/
+/******************---ADOTE---****************************/
 
 /* Botão Saiba Mais */
 
@@ -563,7 +530,7 @@ Footer / Rodapé
     transform: scale(1.05);
 }
 
-/* Botão Doar Agora */
+/* Botão adote Agora */
 
 .btn-doar-agora {
     background-color: #ff7043;
@@ -592,7 +559,7 @@ Footer / Rodapé
 
 .donation-title {
     font-size: 2.5rem;
-    color: #333;
+    color: #fff5f5;
     margin-bottom: 20px;
     font-weight: bold;
 }
@@ -608,7 +575,7 @@ Footer / Rodapé
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(255, 248, 248, 0.1);
     margin-bottom: 20px;
     transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
 }
@@ -652,13 +619,16 @@ Footer / Rodapé
 
 /* Títulos */
 
-h1, h2 {
+h1,
+h2 {
     transition: transform 0.3s, color 0.3s;
 }
 
-h1:hover, h2:hover {
+h1:hover,
+h2:hover {
     transform: scale(1.05);
-    color: #007bff; /* Cor ao passar o mouse */
+    color: #007bff;
+    /* Cor ao passar o mouse */
 }
 
 /* Parágrafos */
@@ -668,10 +638,12 @@ p {
 
 p:hover {
     transform: scale(1.02);
-    color: #555; /* Cor ao passar o mouse */
+    color: #fffbfb;
+    /* Cor ao passar o mouse */
 }
 
 /* Card Customizado */
+
 .custom-card {
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -684,6 +656,7 @@ p:hover {
 }
 
 /* Título do Card */
+
 .custom-card .card-title {
     font-size: 1.75rem;
     font-weight: bold;
@@ -691,6 +664,7 @@ p:hover {
 }
 
 /* Texto do Card */
+
 .custom-card .card-text {
     font-size: 1.1rem;
     color: #555;
@@ -698,6 +672,7 @@ p:hover {
 }
 
 /* Botão do Card */
+
 .custom-card .btn-primary {
     background-color: #007bff;
     border: none;
@@ -710,6 +685,7 @@ p:hover {
 }
 
 /* Rodapé */
+
 .footer {
     background-color: #f8f9fa;
     padding: 40px 0;
@@ -727,7 +703,7 @@ p:hover {
 }
 
 
-/* SOBRE PROJETO (DESENVOLVEDORES */
+/******************** ---SOBRE PROJETO (DESENVOLVEDORES---***************************/
 
 .titulosobre {
     font-size: 2.5rem;
@@ -807,46 +783,48 @@ p:hover {
     color: #fff;
 }
 
-/* LOGO NA PAGINA */
+/************* LOGO NA PAGINA ***************************/
 
 .menu-superior {
     position: relative;
     display: flex;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
 }
 
 .logo-container {
     position: relative;
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
 
 .logo {
-    width: 150px; /* Tamanho da logo */
+    width: 150px;
+    /* Tamanho da logo */
     height: auto;
-    transition: transform 0.3s ease, filter 0.3s ease; 
+    transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 /* Efeito ao passar o mouse sobre a logo */
 
 .logo-container:hover .logo {
-    transform: scale(1.2) rotate(5deg); 
-    filter: brightness(1.2); 
-    animation: pulse 1s infinite; 
+    transform: scale(1.2) rotate(5deg);
+    filter: brightness(1.2);
+    animation: pulse 1s infinite;
 }
 
 .text-overlay {
-    margin-left: 15px; 
+    margin-left: 15px;
     font-size: 18px;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 10px;
     border-radius: 10px;
     opacity: 0;
-    transform: translateX(-20px) scale(0.8); 
+    transform: translateX(-20px) scale(0.8);
     transition: opacity 0.3s ease, transform 0.3s ease;
-    white-space: nowrap; /* Para não ter quebra de linha */
+    white-space: nowrap;
+    /* Para não ter quebra de linha */
     display: flex;
     align-items: center;
 }
@@ -854,52 +832,155 @@ p:hover {
 /* Adiciona um espaço entre a imagem de patinha e o texto */
 
 .paw-icon {
-    width: 24px; 
+    width: 24px;
     height: auto;
-    margin-right: 8px; 
-    transition: transform 0.3s ease, filter 0.3s ease; /
+    margin-right: 8px;
+    transition: transform 0.3s ease, filter 0.3s ease;/
 }
 
 /* Efeito ao passar o mouse sobre a logo */
 
 .logo-container:hover .text-overlay {
     opacity: 1;
-    transform: translateX(0) scale(1.2); 
+    transform: translateX(0) scale(1.2);
     animation: slideIn 0.5s ease-out, bamWaw 0.5s ease-out;
 }
 
 /* Efeito ao passar o mouse sobre o ícone de patinha */
 
 .logo-container:hover .paw-icon {
-    transform: scale(1.2); /* Aumento do ícone */
-    animation: pulseIcon 1s infinite; /* Adiciona a animação de pulsar */
+    transform: scale(1.2);
+    /* Aumento do ícone */
+    animation: pulseIcon 1s infinite;
+    /* Adiciona a animação de pulsar */
 }
 
 @keyframes bamWaw {
-    0% { transform: scale(0.8); }
-    50% { transform: scale(1.4); }
-    100% { transform: scale(1); }
+    0% {
+        transform: scale(0.8);
+    }
+
+    50% {
+        transform: scale(1.4);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 /* Animação de pulsar para a logo */
 
 @keyframes pulse {
-    0% { transform: scale(1.2) rotate(5deg); }
-    50% { transform: scale(1.3) rotate(-5deg); }
-    100% { transform: scale(1.2) rotate(5deg); }
+    0% {
+        transform: scale(1.2) rotate(5deg);
+    }
+
+    50% {
+        transform: scale(1.3) rotate(-5deg);
+    }
+
+    100% {
+        transform: scale(1.2) rotate(5deg);
+    }
 }
 
 /* Animação de pulsar para o ícone de patinha */
 
 @keyframes pulseIcon {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.3); }
-    100% { transform: scale(1); }
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.3);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 /* Animação de deslizar para o texto */
 
 @keyframes slideIn {
-    0% { transform: translateX(-20px) scale(0.8); }
-    100% { transform: translateX(0) scale(1.2); }
+    0% {
+        transform: translateX(-20px) scale(0.8);
+    }
+
+    100% {
+        transform: translateX(0) scale(1.2);
+    }
+}
+
+/**************** index Card************************** */
+
+.card {
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    color: #666;
+}
+
+/*********************** VIDEO HOME *********************/
+
+/* Estilo para o container dos vídeos */
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px auto;
+    padding-bottom: 20px;
+}
+
+/* Estilo para cada wrapper de vídeo */
+
+.video-wrapper {
+    width: 100%;
+    max-width: 480px;
+    height: 270px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Estilo do vídeo dentro do wrapper */
+
+.video-wrapper video {
+    width: 80%;
+    height: 70%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Efeito de hover */
+
+.video-wrapper:hover video {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo específico para o primeiro vídeo */
+
+.video-wrapper.larger {
+    max-width: 600px;
+    height: 340px;
 }

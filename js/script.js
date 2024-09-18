@@ -29,6 +29,14 @@ document.querySelector('.logo').addEventListener('click', () => {
   alert('Logo clicada! Bem-vindo à ONG Pet Friends!');
 });
 
+// Adote - Pausar video do gato
+
+    window.addEventListener('load', function() {
+        var video = document.getElementById('videoGato');
+        video.pause();
+    });
+
+
 
 
 
