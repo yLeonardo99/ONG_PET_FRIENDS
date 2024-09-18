@@ -1,6 +1,6 @@
 let myCarousel = document.getElementById('myCarousel');
 let carousel = new bootstrap.Carousel(myCarousel, {
-  interval: 2000,
+  interval: 1000,
   wrap: false
 });
 
@@ -31,12 +31,7 @@ document.querySelector('.logo').addEventListener('click', () => {
 
 // Adote - Pausar video do gato
 
-    window.addEventListener('load', function() {
-        var video = document.getElementById('videoGato');
-        video.pause();
-    });
-
-
-
-
-
+window.addEventListener('load', function () {
+  var video = document.getElementById('videoGato');
+  video.pause();
+});

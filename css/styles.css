@@ -939,6 +939,38 @@ p:hover {
     color: #666;
 }
 
+/* Botao do carrosel */
+
+.button {
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.button1 {
+    background-color: #d84b6b; 
+    color: #fff; 
+}
+
+.button1:hover {
+    background-color: #c1345a; 
+    color: #f9f9f9; 
+    transform: scale(1.1); 
+}
+
+/* Estilo do botão com efeito de sombra e borda ao passar o cursor */
+.button1:hover {
+    background-color: #c1345a;
+    color: #fff; 
+    border: 2px solid #fff; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
+}
+
+
 /*********************** VIDEO HOME *********************/
 
 /* Estilo para o container dos vídeos */
@@ -984,3 +1016,4 @@ p:hover {
     max-width: 600px;
     height: 340px;
 }
+
