@@ -11,6 +11,38 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="icon" type="image/jpeg" href="Imagens/logo_page.jpg">
     <title>ONG PET FRIENDS</title>
+    <style>
+        .video-gallery-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .video-gallery-container .video {
+            flex: 1;
+        }
+
+        .video-gallery-container .gallery {
+            flex: 1;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .video-gallery-container .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .video-gallery-container .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+    </style>
 </head>
 
 <body>
@@ -28,8 +60,7 @@
 
         <main>
             <nav>
-                <header
-                    class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between mt-3">
+                <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between mt-3">
                     <!-- Menu -->
                     <ul class="navigation-menu mx-auto nav col-12 col-md-auto justify-content-center mb-md-0">
                         <li class="nav-item dropdown">
@@ -69,10 +100,8 @@
                             <img src="Imagens/foto1.png" alt="Image1" class="d-block w-100">
 
                             <div class="carousel-caption d-none d-md-block">
-                                <div id="titulo">
-                                    Salve vidas</div>
-                                <p id="subtitulo">Com a sua doação, você gera cuidado, carinho e amor para milhares de
-                                    animais carentes.</p>
+                                <div id="titulo">Salve vidas</div>
+                                <p id="subtitulo">Com a sua doação, você gera cuidado, carinho e amor para milhares de animais carentes.</p>
                                 <a href="Comoajudar.html"> <button class="button button1">COMO AJUDAR</button></a>
                             </div>
 
@@ -94,7 +123,7 @@
                             <img src="Imagens/foto3.png" alt="Image3" class="d-block w-100">
 
                             <div class="carousel-caption d-none d-md-block">
-                                <div id="titulo"> Conheça nossa historia</div>
+                                <div id="titulo">Conheça nossa historia</div>
                                 <a href="Historia.html"><button class="button button1">SAIBA MAIS</button></a>
                             </div>
                         </div>
@@ -112,46 +141,23 @@
                 </div>
             </div>
 
-            <div class="container my-3">
-                <div class="text-center">
-                    <h1 id="porque"><b>Porque adotar?</b></h1>
-                    <h2 class="titulo">• Adotar é uma forma de trazer um novo conceito para a sua vida</h2>
-                    <p class="textoprincipal">Gratidão: é um dos principais valores, entre outros ensinamentos, que a
-                        adoção de um pet traz para a vida do tutor. A partir de uma adoção as pessoas podem entender
-                        melhor o que significa ser grato, pois é exatamente este sentimento que o cão consegue
-                        transmitir.</p>
-
-                    <h2 class="titulo">• Diminui o número de animais abandonados nas ruas e em abrigos</h2>
-                    <p class="textoprincipal">Todos os pets merecem uma vida digna, regada com muito amor e proteção.
-                        Por esse motivo, ao concretizar uma adoção responsável você está proporcionando uma vida de mais
-                        qualidade para o pet. Além disso, ao adotar o animal de um abrigo você estará, automaticamente,
-                        salvando mais de uma vida, pois o espaço do seu novo melhor amigo será disponibilizado a outro
-                        animal de rua que será resgatado.</p>
-
-                    <h2 class="titulo">• Ter um pet em casa traz felicidade para o lar</h2>
-                    <p class="textoprincipal">Do mesmo modo em que você pratica o bem para o pet, ele também se esforça
-                        para proporcionar momentos de alegria para sua vida. Na verdade, o sentimento de felicidade
-                        estará presente para a família toda.</p>
-
-                    <h2 class="titulo">Já pensou em adotar um cão ou gato pela adoção responsável? Tem vontade de
-                        adotar um animalzinho carente ou já adotou?</h2>
+            <div class="container my-3 video-gallery-container">
+                <!-- VIDEO DO GATO -->
+                <div class="video">
+                    <div class="text-center">
+                        <video id="videoGato" width="800" height="400" controls>
+                            <source src="Imagens/VIDEO_gato.mp4" type="video/mp4">
+                        </video>
+                    </div>
                 </div>
-
-                <!-- VIDEO DO GATO   -->
-
-                <div class="text-center">
-                    <video id="videoGato" width="800" height="400" controls>
-                        <source src="Imagens/VIDEO_gato.mp4" type="video/mp4">
-                    </video>
-                </div>
+                
             </div>
 
             <div class="container my-5">
                 <div class="card custom-card mx-auto" style="max-width: 600px;">
                     <div class="card-body">
                         <h5 class="card-title">Questionário de Adoção</h5>
-                        <p class="card-text">Para iniciar o processo de adoção e garantir que você está preparado para
-                            receber um novo amigo de quatro patas, preencha nosso questionário de adoção.</p>
+                        <p class="card-text">Para iniciar o processo de adoção e garantir que você está preparado para receber um novo amigo de quatro patas, preencha nosso questionário de adoção.</p>
                         <a href="https://docs.google.com/forms/d/e/1FAIpQLSeHZSwQcAbqPlTNAKT_LWLnmwpeg9ElzXLOrvn8qitVOJTIiQ/viewform"
                             class="btn btn-primary" target="_blank">Preencher Questionário</a>
                     </div>

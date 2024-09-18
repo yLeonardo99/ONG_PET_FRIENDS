@@ -35,3 +35,4 @@ window.addEventListener('load', function () {
   var video = document.getElementById('videoGato');
   video.pause();
 });
+
