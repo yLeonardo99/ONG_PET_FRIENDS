@@ -58,7 +58,7 @@ html {
     font-weight: 600;
     text-align: justify;
 }
-
+/* Papel de parede Fundo */
 .wrapper {
     background-image: url("../Imagens/fundo.png");
     /*papel de fundo*/
@@ -259,7 +259,7 @@ header .dropdown-toggle::after {
 
 
 
-/****************************---Historia---************************************/
+/****************************---=======================HISTÓRIA==========================---************************************/
 
 #cachorrofooter {
     height: 15%;
@@ -331,7 +331,7 @@ header .dropdown-toggle::after {
 }
 
 
-/*************************---Como ajudar---***********************/
+/*************************---=================== COMO AJUDAR ==================---***********************/
 
 #entrarcontato {
     text-align: justify;
@@ -509,7 +509,7 @@ header .dropdown-toggle::after {
 }
 
 
-/******************---ADOTE---****************************/
+/******************---=================ADOTE==================---****************************/
 
 /* Botão Saiba Mais */
 
@@ -616,7 +616,7 @@ header .dropdown-toggle::after {
     color: #6bdad4;
 }
 
-/* Efeitos de Hover nos Títulos e Parágrafos */
+/* ====================== Efeitos de Hover nos Títulos e Parágrafos ============================*/
 
 /* Títulos */
 
@@ -633,13 +633,14 @@ h2:hover {
 }
 
 /* Parágrafos */
+
 p {
     transition: transform 0.3s, color 0.3s;
 }
 
 p:hover {
     transform: scale(1.02);
-    color: #fffbfb;
+    color: #000000;
     /* Cor ao passar o mouse */
 }
 
@@ -668,7 +669,7 @@ p:hover {
 
 .custom-card .card-text {
     font-size: 1.1rem;
-    color: #555;
+    color: #000000;
     margin-bottom: 20px;
 }
 
@@ -704,7 +705,7 @@ p:hover {
 }
 
 
-/******************** ---SOBRE PROJETO (DESENVOLVEDORES---***************************/
+/******************** ============== SOBRE PROJETO (DESENVOLVEDORES) ===============***************************/
 
 .titulosobre {
     font-size: 2.5rem;
@@ -763,7 +764,7 @@ p:hover {
 
 .ra {
     font-size: 1.125rem;
-    color: #555;
+    color: #010101;
     margin-bottom: 10px;
 }
 
@@ -784,7 +785,7 @@ p:hover {
     color: #fff;
 }
 
-/************* LOGO NA PAGINA ***************************/
+/**************===================== LOGO NA PAGINA =========================***************************/
 
 .menu-superior {
     position: relative;
@@ -917,7 +918,7 @@ p:hover {
 /**************** index Card************************** */
 
 .card {
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -928,16 +929,16 @@ p:hover {
 
 .card-img-top {
     object-fit: cover;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #000000;
 }
 
 .card-title {
     font-weight: bold;
-    color: #333;
+    color: #020202;
 }
 
 .card-text {
-    color: #666;
+    color: #000000;
 }
 
 /* Botao do carrosel */
@@ -952,14 +953,15 @@ p:hover {
     transition: background-color 0.3s, color 0.3s, transform 0.3s;
 }
 
+/* Btn do Carrosel */
 .button1 {
     background-color: #d84b6b;
     color: #fff;
 }
 
 .button1:hover {
-    background-color: #c1345a;
-    color: #f9f9f9;
+    background-color: #fff5f8;
+    color: #ef2222;
     transform: scale(1.1);
 }
 
@@ -967,12 +969,12 @@ p:hover {
 .button1:hover {
     background-color: #c1345a;
     color: #fff;
-    border: 2px solid #fff;
+    border: 2px solid #100f0f;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 
-/*********************** VIDEO HOME *********************/
+/*********************** ================== VIDEO HOME ==================== *********************/
 
 /* Estilo para o container dos vídeos */
 
