@@ -58,7 +58,7 @@ html {
     font-weight: 600;
     text-align: justify;
 }
-/* Papel de parede Fundo */
+
 .wrapper {
     background-image: url("../Imagens/fundo.png");
     /*papel de fundo*/
@@ -220,6 +220,7 @@ header .dropdown-toggle::after {
 }
 
 /* Ícone das redes sociais */
+
 .social-networks {
     display: flex;
     gap: 15px;
@@ -259,7 +260,7 @@ header .dropdown-toggle::after {
 
 
 
-/****************************---=======================HISTÓRIA==========================---************************************/
+/****************************---Historia---************************************/
 
 #cachorrofooter {
     height: 15%;
@@ -331,7 +332,7 @@ header .dropdown-toggle::after {
 }
 
 
-/*************************---=================== COMO AJUDAR ==================---***********************/
+/*************************---Como ajudar---***********************/
 
 #entrarcontato {
     text-align: justify;
@@ -509,7 +510,7 @@ header .dropdown-toggle::after {
 }
 
 
-/******************---=================ADOTE==================---****************************/
+/******************---ADOTE---****************************/
 
 /* Botão Saiba Mais */
 
@@ -616,7 +617,7 @@ header .dropdown-toggle::after {
     color: #6bdad4;
 }
 
-/* ====================== Efeitos de Hover nos Títulos e Parágrafos ============================*/
+/* Efeitos de Hover nos Títulos e Parágrafos */
 
 /* Títulos */
 
@@ -633,7 +634,6 @@ h2:hover {
 }
 
 /* Parágrafos */
-
 p {
     transition: transform 0.3s, color 0.3s;
 }
@@ -669,7 +669,7 @@ p:hover {
 
 .custom-card .card-text {
     font-size: 1.1rem;
-    color: #000000;
+    color: #555;
     margin-bottom: 20px;
 }
 
@@ -705,7 +705,7 @@ p:hover {
 }
 
 
-/******************** ============== SOBRE PROJETO (DESENVOLVEDORES) ===============***************************/
+/******************** ---SOBRE PROJETO (DESENVOLVEDORES---***************************/
 
 .titulosobre {
     font-size: 2.5rem;
@@ -764,7 +764,7 @@ p:hover {
 
 .ra {
     font-size: 1.125rem;
-    color: #010101;
+    color: #555;
     margin-bottom: 10px;
 }
 
@@ -785,7 +785,7 @@ p:hover {
     color: #fff;
 }
 
-/**************===================== LOGO NA PAGINA =========================***************************/
+/************* LOGO NA PAGINA ***************************/
 
 .menu-superior {
     position: relative;
@@ -915,10 +915,10 @@ p:hover {
     }
 }
 
-/**************** index Card************************** */
+/**************** ======  index Card ===************************** */
 
 .card {
-    border: 1px solid #000000;
+    border: 1px solid #ddd;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -929,16 +929,16 @@ p:hover {
 
 .card-img-top {
     object-fit: cover;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #ddd;
 }
 
 .card-title {
     font-weight: bold;
-    color: #020202;
+    color: #333;
 }
 
 .card-text {
-    color: #000000;
+    color: #666;
 }
 
 /* Botao do carrosel */
@@ -953,15 +953,14 @@ p:hover {
     transition: background-color 0.3s, color 0.3s, transform 0.3s;
 }
 
-/* Btn do Carrosel */
 .button1 {
     background-color: #d84b6b;
     color: #fff;
 }
 
 .button1:hover {
-    background-color: #fff5f8;
-    color: #ef2222;
+    background-color: #c1345a;
+    color: #f9f9f9;
     transform: scale(1.1);
 }
 
@@ -969,12 +968,12 @@ p:hover {
 .button1:hover {
     background-color: #c1345a;
     color: #fff;
-    border: 2px solid #100f0f;
+    border: 2px solid #fff;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 
-/*********************** ================== VIDEO HOME ==================== *********************/
+/*********************** VIDEO HOME *********************/
 
 /* Estilo para o container dos vídeos */
 
@@ -1018,4 +1017,255 @@ p:hover {
 .video-wrapper.larger {
     max-width: 600px;
     height: 340px;
+}
+
+/* ********************-----JOGO DA VELHA PAG.HOME------- ************************* */
+
+#stage {
+    min-width: 280px;
+    min-height: 550px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+    border: 10px solid #846052;
+    background-color: #bb9167;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+@keyframes changeSize{
+    0% {width: 60px; height: 60px;}
+    50% {width: 55px; height: 55px;}
+    100% {width: 60px; height: 60px;}
+}
+.square:hover{
+    border: 10px solid#bb9167;
+    background-color: #846052;
+}
+
+.square:active {
+    animation-name: changeSize;
+    animation-duration: 400ms;
+    animation-timing-function: linear;
+    -webkit-animation-name: changeSize;
+    -webkit-animation-duration: 400ms;
+    -webkit-animation-timing-function: linear;
+}
+
+
+#o {
+    position:relative;
+}
+
+#o::after{
+    content: "\1F436";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    font-size: 45px;
+    line-height: 60px;
+}
+
+#x {
+    position:relative;
+}
+
+#x::after{
+    content: "\1F431";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    font-size: 45px;
+    line-height: 60px;
+}
+
+a{
+    text-decoration: none;
+    color: #846052;
+    position: relative;
+    top: 10px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    font-size: 14px;
+}
+
+#winnerDeclaration {
+    font-size: 30px;
+    max-width: 220px;
+}
+
+.resetButton {
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    border: none;
+    background-color:  #bb9167;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+}  
+
+.gameOverScreen{
+    position:absolute;
+    width: 25%;
+    height: 8%;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 56%;
+    right:37%;
+}
+
+@media screen and (min-width: 700px){
+    
+    h1 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    
+    .square {
+        width: 60px;
+        height: 60px;
+        border: 10px solid #846052;
+        background-color: #bb9167;
+        display: inline-block;
+        border-radius: 20px;
+    }
+
+    .square:hover{
+        border: 10px solid#bb9167;
+        background-color: #846052;
+    }
+
+    #o::after{
+        content: "\1F436";
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        font-size: 45px;
+        line-height: 60px;
+    }
+    
+    #x::after{
+        content: "\1F431";
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        font-size: 45px;
+        line-height: 60px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #846052;
+        position: relative;
+        top: 10px;
+        bottom: 0px;
+        left: 0;
+        right: 0;
+        font-size: 14px;
+    }
+    
+    #winnerDeclaration {
+        font-size: 35px;
+        max-width: 260px;
+    }
+    
+}
+
+@media screen and (min-width: 800px){
+    
+    h1 {
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+    
+    .square {
+        width: 80px;
+        height: 80px;
+        border: 15px solid #846052;
+        background-color: #bb9167;
+        display: inline-block;
+        border-radius: 30px;
+    }
+
+    @keyframes changeSize{
+        0% {width: 80px; height: 80px;}
+        50% {width: 75px; height: 75px;}
+        100% {width: 80px; height: 80px;}
+    }
+    .square:hover{
+        border: 15px solid#bb9167;
+        background-color: #846052;
+    }
+    
+    .square:active {
+        animation-name: changeSize;
+        animation-duration: 400ms;
+        animation-timing-function: linear;
+        -webkit-animation-name: changeSize;
+        -webkit-animation-duration: 400ms;
+        -webkit-animation-timing-function: linear;
+    }
+    #o::after{
+        content: "\1F436";
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        font-size: 55px;
+        line-height: 80px;
+    }
+    
+    #x::after{
+        content: "\1F431";
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        font-size: 55px;
+        line-height: 80px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #846052;
+        position: relative;
+        top: 10px;
+        bottom: 0px;
+        left: 0;
+        right: 0;
+        font-size: 14px;
+    }
+    
+    #winnerDeclaration {
+        font-size: 40px;
+        max-width: 320px;
+    }
+    
 }
