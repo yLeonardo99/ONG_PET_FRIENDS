@@ -60,7 +60,7 @@ html {
 }
 
 .wrapper {
-    background-image: url("../Imagens/fundo.png");
+    background-image: url("../img/fundo.png");
     /*papel de fundo*/
     position: relative;
 
