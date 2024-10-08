@@ -57,6 +57,7 @@ html {
     color: rgb(24, 24, 24);
     font-weight: 600;
     text-align: justify;
+
 }
 
 .wrapper {
@@ -407,6 +408,7 @@ header .dropdown-toggle::after {
     font-weight: 600;
     text-align: justify;
     margin-top: 20px;
+    
 }
 
 #textocomoajudar3 {
@@ -802,6 +804,8 @@ p:hover {
 
 .logo {
     width: 150px;
+    justify-content: center;
+    margin-left: 30%;
     /* Tamanho da logo */
     height: auto;
     transition: transform 0.3s ease, filter 0.3s ease;
