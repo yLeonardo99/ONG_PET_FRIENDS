@@ -57,12 +57,12 @@ html {
     color: rgb(24, 24, 24);
     font-weight: 600;
     text-align: justify;
-
 }
 
 .wrapper {
     background-image: url("../img/fundo.png");
     /*papel de fundo*/
+    
     position: relative;
 
 }
@@ -196,6 +196,7 @@ header .dropdown-toggle::after {
 .footer-section ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 .footer-section ul li {
@@ -224,11 +225,16 @@ header .dropdown-toggle::after {
 
 .social-networks {
     display: flex;
-    gap: 15px;
+    gap: 36px;
+    justify-content:center;
+    align-items: center ;
+
+    
+
 }
 
 .social-networks a {
-    font-size: 20px;
+    font-size: 37px;
     color: #f9f9f9;
     transition: color 0.3s ease;
 }
@@ -408,7 +414,6 @@ header .dropdown-toggle::after {
     font-weight: 600;
     text-align: justify;
     margin-top: 20px;
-    
 }
 
 #textocomoajudar3 {
@@ -582,6 +587,21 @@ header .dropdown-toggle::after {
     box-shadow: 0 4px 8px rgba(255, 248, 248, 0.1);
     margin-bottom: 20px;
     transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+.informação-principal2{
+justify-content: space-around;
+display: flex;
+}
+
+.informação-container{
+    font-size: 2px;
+    padding: 40px;
+}
+
+.informação-container2{
+    font-size: 2px;
+    padding: 40px;
 }
 
 /* Efeito hover nos cards */
@@ -804,11 +824,10 @@ p:hover {
 
 .logo {
     width: 150px;
-    justify-content: center;
-    margin-left: 30%;
     /* Tamanho da logo */
     height: auto;
     transition: transform 0.3s ease, filter 0.3s ease;
+    
 }
 
 /* Efeito ao passar o mouse sobre a logo */
@@ -1271,5 +1290,7 @@ a{
         font-size: 40px;
         max-width: 320px;
     }
+
+    
     
 }
