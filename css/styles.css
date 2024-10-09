@@ -62,7 +62,7 @@ html {
 .wrapper {
     background-image: url("../img/fundo.png");
     /*papel de fundo*/
-    
+
     position: relative;
 
 }
@@ -226,10 +226,10 @@ header .dropdown-toggle::after {
 .social-networks {
     display: flex;
     gap: 36px;
-    justify-content:center;
-    align-items: center ;
+    justify-content: center;
+    align-items: center;
 
-    
+
 
 }
 
@@ -588,22 +588,22 @@ header .dropdown-toggle::after {
     margin-bottom: 20px;
     transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
 }
-/* centralização das informações do fim da pagina */
-.informação-principal2{
-justify-content: space-around;
-display:inline-flex;
-margin-left:20%;
-padding-inline: 15px;
 
+/* centralização das informações do fim da pagina */
+.informação-principal2 {
+    justify-content: space-around;
+    display: inline-flex;
+    margin-left: 20%;
+    padding-inline: 15px;
 
 }
 
-.informação-container{
+.informação-container {
     font-size: 2px;
     padding: 40px;
 }
 
-.informação-container2{
+.informação-container2 {
     font-size: 2px;
     padding: 40px;
 }
@@ -832,7 +832,7 @@ p:hover {
     /* Tamanho da logo */
     height: auto;
     transition: transform 0.3s ease, filter 0.3s ease;
-    
+
 }
 
 /* Efeito ao passar o mouse sobre a logo */
@@ -1070,12 +1070,24 @@ p:hover {
     border-radius: 20px;
 }
 
-@keyframes changeSize{
-    0% {width: 60px; height: 60px;}
-    50% {width: 55px; height: 55px;}
-    100% {width: 60px; height: 60px;}
+@keyframes changeSize {
+    0% {
+        width: 60px;
+        height: 60px;
+    }
+
+    50% {
+        width: 55px;
+        height: 55px;
+    }
+
+    100% {
+        width: 60px;
+        height: 60px;
+    }
 }
-.square:hover{
+
+.square:hover {
     border: 10px solid#bb9167;
     background-color: #846052;
 }
@@ -1091,10 +1103,10 @@ p:hover {
 
 
 #o {
-    position:relative;
+    position: relative;
 }
 
-#o::after{
+#o::after {
     content: "\1F436";
     position: absolute;
     top: 0px;
@@ -1106,10 +1118,10 @@ p:hover {
 }
 
 #x {
-    position:relative;
+    position: relative;
 }
 
-#x::after{
+#x::after {
     content: "\1F431";
     position: absolute;
     top: 0px;
@@ -1120,7 +1132,7 @@ p:hover {
     line-height: 60px;
 }
 
-a{
+a {
     text-decoration: none;
     color: #846052;
     position: relative;
@@ -1144,14 +1156,14 @@ a{
     padding-bottom: 5px;
     border-radius: 15px;
     border: none;
-    background-color:  #bb9167;
+    background-color: #bb9167;
     color: white;
     font-family: 'Pacifico', cursive;
     font-size: 24px;
-}  
+}
 
-.gameOverScreen{
-    position:absolute;
+.gameOverScreen {
+    position: absolute;
     width: 25%;
     height: 8%;
     background-color: rgba(255, 255, 255, 0.6);
@@ -1160,16 +1172,16 @@ a{
     align-items: center;
     flex-direction: column;
     top: 56%;
-    right:37%;
+    right: 37%;
 }
 
-@media screen and (min-width: 700px){
-    
+@media screen and (min-width: 700px) {
+
     h1 {
         font-size: 40px;
         margin-bottom: 15px;
     }
-    
+
     .square {
         width: 60px;
         height: 60px;
@@ -1179,12 +1191,12 @@ a{
         border-radius: 20px;
     }
 
-    .square:hover{
+    .square:hover {
         border: 10px solid#bb9167;
         background-color: #846052;
     }
 
-    #o::after{
+    #o::after {
         content: "\1F436";
         position: absolute;
         top: 0px;
@@ -1194,8 +1206,8 @@ a{
         font-size: 45px;
         line-height: 60px;
     }
-    
-    #x::after{
+
+    #x::after {
         content: "\1F431";
         position: absolute;
         top: 0px;
@@ -1205,8 +1217,8 @@ a{
         font-size: 45px;
         line-height: 60px;
     }
-    
-    a{
+
+    a {
         text-decoration: none;
         color: #846052;
         position: relative;
@@ -1216,21 +1228,21 @@ a{
         right: 0;
         font-size: 14px;
     }
-    
+
     #winnerDeclaration {
         font-size: 35px;
         max-width: 260px;
     }
-    
+
 }
 
-@media screen and (min-width: 800px){
-    
+@media screen and (min-width: 800px) {
+
     h1 {
         font-size: 50px;
         margin-bottom: 15px;
     }
-    
+
     .square {
         width: 80px;
         height: 80px;
@@ -1240,16 +1252,28 @@ a{
         border-radius: 30px;
     }
 
-    @keyframes changeSize{
-        0% {width: 80px; height: 80px;}
-        50% {width: 75px; height: 75px;}
-        100% {width: 80px; height: 80px;}
+    @keyframes changeSize {
+        0% {
+            width: 80px;
+            height: 80px;
+        }
+
+        50% {
+            width: 75px;
+            height: 75px;
+        }
+
+        100% {
+            width: 80px;
+            height: 80px;
+        }
     }
-    .square:hover{
+
+    .square:hover {
         border: 15px solid#bb9167;
         background-color: #846052;
     }
-    
+
     .square:active {
         animation-name: changeSize;
         animation-duration: 400ms;
@@ -1258,7 +1282,8 @@ a{
         -webkit-animation-duration: 400ms;
         -webkit-animation-timing-function: linear;
     }
-    #o::after{
+
+    #o::after {
         content: "\1F436";
         position: absolute;
         top: 0px;
@@ -1268,8 +1293,8 @@ a{
         font-size: 55px;
         line-height: 80px;
     }
-    
-    #x::after{
+
+    #x::after {
         content: "\1F431";
         position: absolute;
         top: 0px;
@@ -1279,8 +1304,8 @@ a{
         font-size: 55px;
         line-height: 80px;
     }
-    
-    a{
+
+    a {
         text-decoration: none;
         color: #846052;
         position: relative;
@@ -1290,24 +1315,27 @@ a{
         right: 0;
         font-size: 14px;
     }
-    
+
     #winnerDeclaration {
         font-size: 40px;
         max-width: 320px;
     }
 
-    
-    
-}
-<<<<<<< HEAD
 
+
+}
+
+<<<<<<< HEAD
 /* Efeito hover para Rodapé */
 
 /* Alinhamento dos links com largura fixa */
 .custom-footer-links {
-    list-style-type: none;  /* Remove as bolinhas ou numeração */
-    padding-left: 0;        /* Remove o espaçamento à esquerda da lista */
-    width: 200px;           /* Define uma largura fixa para os links, ajustável */
+    list-style-type: none;
+    /* Remove as bolinhas ou numeração */
+    padding-left: 0;
+    /* Remove o espaçamento à esquerda da lista */
+    width: 200px;
+    /* Define uma largura fixa para os links, ajustável */
 }
 
 /* Classe para os links do rodapé */
@@ -1316,9 +1344,12 @@ a{
     color: white;
     text-decoration: none;
     padding-bottom: 5px;
-    font-size: 16px; /* Aumenta o tamanho da fonte */
-    display: block;  /* Faz com que cada link ocupe toda a linha disponível */
-    width: 100%;     /* Faz o link ocupar toda a largura do pai */
+    font-size: 16px;
+    /* Aumenta o tamanho da fonte */
+    display: block;
+    /* Faz com que cada link ocupe toda a linha disponível */
+    width: 100%;
+    /* Faz o link ocupar toda a largura do pai */
     transition: all 0.3s ease-in-out;
 }
 
@@ -1339,16 +1370,18 @@ a{
 }
 
 .nav-link-custom:hover {
-    color: white; /* Mantém o texto branco no hover */
+    color: white;
+    /* Mantém o texto branco no hover */
 }
-=======
-/* BOTÃO ENTRAR EM CONTATO  - paulinho*/ 
 
-.btn-insta{
+/* BOTÃO ENTRAR EM CONTATO  - paulinho*/
+
+.btn-insta {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 10px;
+    margin: auto;
 }
 
 .button-insta {
@@ -1356,7 +1389,7 @@ a{
     border: none;
     outline: none;
 
-    
+
     text-align: center;
     color: rgb(255, 255, 255);
     background: #111;
@@ -1368,24 +1401,22 @@ a{
     touch-action: manipulation;
     justify-content: center;
     align-items: center;
-    
 
-  }
-  
-  .button-insta:before {
+
+}
+
+.button-insta:before {
     content: "";
-    background: linear-gradient(
-      45deg,
-      #ff0000,
-      #ff7300,
-      #fffb00,
-      #48ff00,
-      #00ffd5,
-      #002bff,
-      #7a00ff,
-      #ff00c8,
-      #ff0000
-    );
+    background: linear-gradient(45deg,
+            #ff0000,
+            #ff7300,
+            #fffb00,
+            #48ff00,
+            #00ffd5,
+            #002bff,
+            #7a00ff,
+            #ff00c8,
+            #ff0000);
     position: absolute;
     top: -2px;
     left: -2px;
@@ -1398,21 +1429,23 @@ a{
     transition: opacity 0.3s ease-in-out;
     border-radius: 10px;
     text-align: center;
-  }
-  
-  @keyframes glowing-button-85 {
+}
+
+@keyframes glowing-button-85 {
     0% {
-      background-position: 0 0;
+        background-position: 0 0;
     }
+
     50% {
-      background-position: 400% 0;
+        background-position: 400% 0;
     }
+
     100% {
-      background-position: 0 0;
+        background-position: 0 0;
     }
-  }
-  
-  .button-insta:after {
+}
+
+.button-insta:after {
     z-index: -1;
     content: "";
     position: absolute;
@@ -1423,5 +1456,4 @@ a{
     top: 0;
     border-radius: 10px;
     text-align: center;
-  }
->>>>>>> c6baceb9885f6c2d83503d304e5e12fb1a134092
+}
