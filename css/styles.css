@@ -814,6 +814,7 @@ p:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 5%;
 }
 
 .logo-container {
@@ -1293,4 +1294,45 @@ a{
 
     
     
+}
+
+/* Efeito hover para Rodapé */
+
+/* Alinhamento dos links com largura fixa */
+.custom-footer-links {
+    list-style-type: none;  /* Remove as bolinhas ou numeração */
+    padding-left: 0;        /* Remove o espaçamento à esquerda da lista */
+    width: 200px;           /* Define uma largura fixa para os links, ajustável */
+}
+
+/* Classe para os links do rodapé */
+.nav-link-custom {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 5px;
+    font-size: 16px; /* Aumenta o tamanho da fonte */
+    display: block;  /* Faz com que cada link ocupe toda a linha disponível */
+    width: 100%;     /* Faz o link ocupar toda a largura do pai */
+    transition: all 0.3s ease-in-out;
+}
+
+/* Efeito de hover com a risca abaixo do texto */
+.nav-link-custom::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transition: width 0.3s ease-in-out;
+}
+
+.nav-link-custom:hover::after {
+    width: 100%;
+}
+
+.nav-link-custom:hover {
+    color: white; /* Mantém o texto branco no hover */
 }
