@@ -35,29 +35,50 @@ html {
     width: 70%;
     height: 70%;
 }
-
-.titulo {
+/* editado geovana */
+.titulo1 {
     font-size: 25px;
-    color: rgb(12, 8, 8);
+    color: rgb(15, 15, 15);;
     font-weight: bold;
     font-family: 'Pacifico', cursive;
-    ;
+    
+    
+}
+/* editado geovana */
+.titulo2 {
+    font-size: 25px;
+    color: rgb(15, 15, 15);;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    
 }
 
 .corfooter {
-    color: rgb(255, 255, 255);
+    color: rgb(15, 15, 15);;
     font-family: 'Open Sans', sans-serif;
     font-size: 150%;
 
 }
 
-.textoprincipal {
+/* editado geovana */
+.textoprincipal1 {
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
-    color: rgb(24, 24, 24);
+    color: rgb(15, 15, 15);
+    font-weight: 600;
+    text-align:justify;
+}
+
+/* editado geovana */
+.textoprincipal2 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(15, 15, 15);
     font-weight: 600;
     text-align: justify;
+    
 }
+
 
 .wrapper {
     background-image: url("../img/fundo.png");
@@ -403,43 +424,71 @@ header .dropdown-toggle::after {
 
 }
 
-#textocomoajudar2 {
-    font-size: 20px;
+/* editado geovana */
+#textoapadrinhamento {
+
+    text-align: justify;
+    font-size: 17px;
     font-family: 'Open Sans', sans-serif;
-    color: rgb(12, 8, 8);
-    display: inline-block;
-    width: 50%;
+    color: rgb(24, 24, 24);
     display: flex;
+    width: 50%;
     margin: 2%;
     font-weight: 600;
-    text-align: justify;
-    margin-top: 20px;
+
+
 }
 
-#textocomoajudar3 {
-    font-size: 20px;
+/* editado geovana */
+#textoapadrinhamento2 {
+
+    text-align: justify;
+    font-size: 17px;
     font-family: 'Open Sans', sans-serif;
-    color: rgb(12, 8, 8);
-    display: inline-block;
+    color: rgb(24, 24, 24);
     display: flex;
     width: 50%;
     margin: 2%;
-    margin-top: 200px;
     font-weight: 600;
-    text-align: justify;
+
+
 }
+ /* editado geovana */
+#textoapadrinhamento3 {
+
+    text-align: justify;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(24, 24, 24);
+    display: flex;
+    width: 50%;
+    margin: 2%;
+    font-weight: 600;
+
+
+}
+
+/* editado geovana */
+.tituloapadrinhamento {
+
+    margin-left: 17%;
+}
+
+/* editado geovana */
+.tituloapadrinhamento2 {
+
+    margin-left: 10%;
+}
+
+/* editado geovana */
+.tituloapadrinhamento3 {
+
+    margin-left: 16%;
+}
+
 
 @media(max-width:1300px) {
     #textocomoajudar {
-        font-size: 18px;
-    }
-
-    #textocomoajudar2 {
-        font-size: 18px;
-
-    }
-
-    #textocomoajudar3 {
         font-size: 18px;
     }
 
@@ -452,13 +501,6 @@ header .dropdown-toggle::after {
 
     }
 
-    #textocomoajudar2 {
-        font-size: 15px;
-    }
-
-    #textocomoajudar3 {
-        font-size: 15px;
-    }
 
 }
 
@@ -498,19 +540,6 @@ header .dropdown-toggle::after {
     #textocomoajudar {
         margin-right: auto;
         margin-left: auto;
-        width: 80%;
-    }
-
-    #textocomoajudar2 {
-        margin-right: auto;
-        margin-left: auto;
-        width: 80%;
-    }
-
-    #textocomoajudar3 {
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 0;
         width: 80%;
     }
 
@@ -601,6 +630,7 @@ header .dropdown-toggle::after {
 .informação-container {
     font-size: 2px;
     padding: 40px;
+    margin-left: 0%;
 }
 
 .informação-container2 {
