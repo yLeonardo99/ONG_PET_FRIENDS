@@ -93,7 +93,6 @@ html {
     height: 500px;
     background-color: rgb(0, 0, 0);
     position: relative;
-
     /* não altera posição de outros elementos*/
 
 }
@@ -1195,13 +1194,13 @@ a {
 .gameOverScreen {
     position: absolute;
     width: 25%;
-    height: 8%;
+    height: 9%;
     background-color: rgba(255, 255, 255, 0.6);
     display: auto;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    top: 56%;
+    top: 52%;
     right: 37%;
 }
 
@@ -1355,31 +1354,25 @@ a {
 
 }
 
-<<<<<<< HEAD
 /* Efeito hover para Rodapé */
 
-/* Alinhamento dos links com largura fixa */
 .custom-footer-links {
     list-style-type: none;
-    /* Remove as bolinhas ou numeração */
     padding-left: 0;
-    /* Remove o espaçamento à esquerda da lista */
     width: 200px;
-    /* Define uma largura fixa para os links, ajustável */
 }
 
 /* Classe para os links do rodapé */
+
 .nav-link-custom {
     position: relative;
     color: white;
     text-decoration: none;
     padding-bottom: 5px;
     font-size: 16px;
-    /* Aumenta o tamanho da fonte */
     display: block;
     /* Faz com que cada link ocupe toda a linha disponível */
     width: 100%;
-    /* Faz o link ocupar toda a largura do pai */
     transition: all 0.3s ease-in-out;
 }
 
@@ -1486,4 +1479,81 @@ a {
     top: 0;
     border-radius: 10px;
     text-align: center;
+}
+
+/* ComoAjudar - DIV informações (Geovana) */
+
+.informacao-principal {
+    display: flex; /* Para deixar um ao lado do outro*/
+    justify-content: space-around; 
+    align-items: center; 
+    margin: 20px; /* Margem ao redor da div principal */
+    width: calc(100% - 40px);
+}
+
+.informacao-container {
+    display: flex; /* Mantém os cartões e linhas na mesma linha */
+    align-items: center; /* Alinha os cartões verticalmente */
+}
+
+.info-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px; 
+    text-align: center;
+    width: 200px; /* Largura do cartão */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative; 
+    overflow: hidden; /* Para ocultar o texto do hover */
+    margin: 10px; /* Margem entre os Card */
+    z-index: 1; 
+}
+
+.curve-line {
+    position: relative; 
+    z-index: 0; 
+    height: 50px; 
+}
+
+.animated-path {
+    stroke: #000000; /* Cor da linha */
+    stroke-width: 6; /* Largura da linha */
+    fill: none; /* Sem preenchimento  */
+    animation: dash 2s ease-in-out infinite; 
+}
+
+@keyframes dash {
+    0% {
+        stroke-dasharray: 5, 5; 
+        stroke-dashoffset: 0;
+    }
+    50% {
+        stroke-dasharray: 5, 5; 
+        stroke-dashoffset: -10; 
+    }
+    100% {
+        stroke-dasharray: 5, 5; 
+        stroke-dashoffset: -20; 
+    }
+}
+
+.icon {
+    font-size: 60px; 
+    color: #721717;
+    margin-bottom: 15px; 
+    transition: color 0.3s ease;
+}
+
+.titulo, .textoprincipal {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0; 
+    opacity: 0; /* Inicia invisível */
+    transition: opacity 0.3s ease; 
+}
+
+.info-card:hover .titulo,
+.info-card:hover .textoprincipal {
+    opacity: 1; /* Deixar o texto visível ao passar o mouse */
 }
