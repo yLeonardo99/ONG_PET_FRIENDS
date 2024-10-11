@@ -61,6 +61,7 @@ html {
 }
 
 /* editado geovana */
+
 .textoprincipal1 {
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
@@ -450,9 +451,10 @@ header .dropdown-toggle::after {
     margin: 2%;
     font-weight: 600;
 
-
 }
+
  /* editado geovana */
+
 #textoapadrinhamento3 {
 
     text-align: justify;
@@ -580,14 +582,13 @@ header .dropdown-toggle::after {
     transition: background-color 0.3s, transform 0.3s;
 }
 
-/* Efeito hover no botão Doar Agora */
+
 
 .btn-doar-agora:hover {
     background-color: #e64a19;
     transform: scale(1.05);
 }
 
-/* Seção Como Você Pode Ajudar */
 
 .donation-info {
     background-color: #f9f9f9;
@@ -617,7 +618,7 @@ header .dropdown-toggle::after {
     transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
 }
 
-/* centralização das informações do fim da pagina */
+
 .informação-principal2 {
     justify-content: space-around;
     display: inline-flex;
@@ -760,7 +761,7 @@ p:hover {
 }
 
 
-/******************** ---SOBRE PROJETO (DESENVOLVEDORES---***************************/
+/********************  SOBRE PROJETO (DESENVOLVEDORES) ***************************/
 
 .titulosobre {
     font-size: 2.5rem;
@@ -802,8 +803,8 @@ p:hover {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 80%;
-    max-width: 500px;
+    width: 100%;
+    max-width: 550px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     position: relative;
     overflow: hidden;
@@ -840,7 +841,7 @@ p:hover {
     color: #fff;
 }
 
-/************* LOGO NA PAGINA ***************************/
+/***************** LOGO NA PAGINA ***************************/
 
 .menu-superior {
     position: relative;
@@ -888,7 +889,6 @@ p:hover {
     align-items: center;
 }
 
-/* Adiciona um espaço entre a imagem de patinha e o texto */
 
 .paw-icon {
     width: 24px;
@@ -1061,8 +1061,6 @@ p:hover {
     display: block;
     transition: transform 0.3s, box-shadow 0.3s;
 }
-
-/* Efeito de hover */
 
 .video-wrapper:hover video {
     transform: scale(1.05);
@@ -1481,7 +1479,7 @@ a {
     text-align: center;
 }
 
-/* ComoAjudar - DIV informações (Geovana) */
+/* =================  Pag. ComoAjudar - DIV informações (Geovana) =============================*/
 
 .informacao-principal {
     display: flex; /* Para deixar um ao lado do outro*/
@@ -1556,4 +1554,22 @@ a {
 .info-card:hover .titulo,
 .info-card:hover .textoprincipal {
     opacity: 1; /* Deixar o texto visível ao passar o mouse */
+}
+
+/* ============== Texto na Pagina - Home ========================== */
+
+.titulo-custom {
+    font-size: 2em;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.textoprincipal-custom {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 800px;
 }
