@@ -790,6 +790,21 @@ p:hover {
     }
 }
 
+
+    .textoprincipal {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0; 
+    opacity: 0; /* Inicia invisível */
+    transition: opacity 0.3s ease; 
+}
+
+.info-card:hover .titulo,
+.info-card:hover .textoprincipal {
+    opacity: 1; /* Deixar o texto visível ao passar o mouse */
+}
+
+
 .desenvolvedores-list {
     display: flex;
     flex-direction: column;
