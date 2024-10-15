@@ -45,11 +45,11 @@ Este projeto, desenvolvido por alunos da Uninove campos ('Vila Prudente'), visa 
 
 ## 🖼️ Imagens do Projeto 
 
-![Página Home](img/image.png)
+![Página Home](https://raw.githubusercontent.com/yLeonardo99/ONG_PET_FRIENDS/refs/heads/main/img/Readme%20-%20Capa.1.png)
 
-![Página Como Ajudar](img/image-1.png)
+![Página Como Ajudar](https://raw.githubusercontent.com/yLeonardo99/ONG_PET_FRIENDS/refs/heads/main/img/Readme%20-%20Capa%20(2).png)
 
-![Página História da ONG](img/image-2.png)
+![Página História da ONG](https://raw.githubusercontent.com/yLeonardo99/ONG_PET_FRIENDS/refs/heads/main/img/Readme%20-%20Capa%20(3).png)
 
 ## 🙏 Como Ajudar 
 
