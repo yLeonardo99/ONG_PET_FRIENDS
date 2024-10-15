@@ -6,8 +6,8 @@ Este projeto, desenvolvido por alunos da Uninove campos ('Vila Prudente'), visa 
 
 ## 🧑‍🏫Professor Responsável 
 
-  - **Daniel Ferreira de Barros Junior**  
-  GitHub: [DanielGTI](https://github.com/DanielGTI) 🐱‍👤
+- **Daniel Ferreira de Barros Junior**  
+  GitHub: <a href="https://github.com/DanielGTI" target="_blank">DanielGTI</a> 🐱‍👤
 
 ## 🌐 Links 
 
@@ -17,31 +17,32 @@ Este projeto, desenvolvido por alunos da Uninove campos ('Vila Prudente'), visa 
 ## 🏆 Equipe Desenvolvedora
 
 - **Leonardo Cassiano dos Santos**  
-  GitHub: [yLeonardo99](https://github.com/yLeonardo99) 🐱‍👤
+  GitHub: <a href="https://github.com/yLeonardo99" target="_blank">yLeonardo99</a> 🐱‍👤
 
 - **Giuliana de Oliveira José**  
-  GitHub: [GiulianaOliveira](https://github.com/GiulianaOliveira) 🐱‍👤
+  GitHub: <a href="https://github.com/GiulianaOliveira" target="_blank">GiulianaOliveira</a> 🐱‍👤
 
-- **Geovana Moraes Lopes**   
-  GitHub: [yGeovanaDev](https://github.com/yGeovanaDev) 🐱‍👤
+- **Geovana Moraes Lopes**  
+  GitHub: <a href="https://github.com/yGeovanaDev" target="_blank">yGeovanaDev</a> 🐱‍👤
 
 - **Gabriel Louis da Silva Meszaros**  
-  GitHub: [gLouis03](https://github.com/gLouis03) 🐱‍👤
+  GitHub: <a href="https://github.com/gLouis03" target="_blank">gLouis03</a> 🐱‍👤
 
 - **Jenifer Moreira Soares**  
-  GitHub: [jhenymoreira](https://github.com/jhenymoreira) 🐱‍👤
+  GitHub: <a href="https://github.com/jhenymoreira" target="_blank">jhenymoreira</a> 🐱‍👤
 
 - **Gabrieli Ferreira Theodoro Couto**  
-  GitHub: [gabs419](https://github.com/gabs419) 🐱‍👤
+  GitHub: <a href="https://github.com/gabs419" target="_blank">gabs419</a> 🐱‍👤
 
 - **Anderson Cristiano Freitas**  
-  GitHub: [AndersonCRFR](https://github.com/AndersonCRFR) 🐱‍👤
+  GitHub: <a href="https://github.com/AndersonCRFR" target="_blank">AndersonCRFR</a> 🐱‍👤
 
 - **Paulo Rafael Costa Sanges**  
-  GitHub: [PauloSanges](https://github.com/PauloSanges) 🐱‍👤
+  GitHub: <a href="https://github.com/PauloSanges" target="_blank">PauloSanges</a> 🐱‍👤
 
 - **Eduardo Expedito Maciel Lacerda**  
-  GitHub: [MacieldoTI](https://github.com/MacieldoTI) 🐱‍👤
+  GitHub: <a href="https://github.com/MacieldoTI" target="_blank">MacieldoTI</a> 🐱‍👤
+
 
 ## 🖼️ Imagens do Projeto 
 
